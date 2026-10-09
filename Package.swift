@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "AdsEyeADXSDK", targets: ["AdsEyeADXLinker"])
     ],
     dependencies: [
-        .package(url: "https://github.com/AdsEye/AdsEyeSDK.git", exact: "1.4.21")
+        .package(url: "https://github.com/AdsEye/AdsEyeSDK.git", exact: "1.4.22")
     ],
     targets: [
         .target(
@@ -44,13 +44,13 @@ let package = Package(
 ),
               .binaryTarget(
     name: "AdsEyeADXSDK",
-    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.21/spm/AdsEyeADXSDK-1.4.21-09101108.zip",
-    checksum: "ae6c6ac95bd1a6c0d1feedaf90073bda7e9d629b83c5fdc713df2ac416e6ed34"
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.22/spm/AdsEyeADXSDK-1.4.22-10091517.zip",
+    checksum: "514edfb9b207a4fe5bcf176453705c5a570d835a83725eb37a9a3f56e97e2b7d"
 ),
               .binaryTarget(
     name: "InnoSecureSDK",
-    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.21/spm/InnoSecureSDK-1.4.21-09101108.zip",
-    checksum: "6909167862aeb09e417dd4022d4e50b341d061225c7833c161d51ac56a23784c"
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.22/spm/InnoSecureSDK-1.4.22-10091517.zip",
+    checksum: "0f2c2d4628aa157702d7f2bef06ae05f68af7bfaf0cae122fcec7745dd6f8b47"
 )
     ]
 )
