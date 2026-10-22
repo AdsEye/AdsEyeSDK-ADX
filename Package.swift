@@ -19,6 +19,7 @@ let package = Package(
               .target(name: "AdsEyeADXSDK"),
               .target(name: "InnoSecureSDK")
     ],
+    resources: [.copy("Resources/AdsEyeADXAdBundle.bundle")],
     linkerSettings: [
         .linkedFramework("UIKit"),
               .linkedFramework("Foundation"),
